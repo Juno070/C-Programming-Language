@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 // EXERCISE 1.5.1 File Copying pg.18
 #include <stdio.h> // Include the library for standard input/ output
 
@@ -11,6 +13,7 @@ while (str[i] != '\0') {  // Loop until null terminator
 putchar('\n');  // Print a newline at the end
 
 // Executable version
+>>>>>>> master
 #include <stdio.h> // Standard input and output library
 
 int main() { // Program's entry point
