@@ -1,3 +1,16 @@
+// EXERCISE 1.5.1 File Copying pg.18
+#include <stdio.h> // Include the library for standard input/ output
+
+char str[] = "Hello, World!";  // Simulated input string
+int i = 0; // String starting index
+
+while (str[i] != '\0') {  // Loop until null terminator
+      putchar(str[i]);     // Print each character
+      i++; // Iterate through the string indexes
+}
+putchar('\n');  // Print a newline at the end
+
+// Executable version
 #include <stdio.h> // Standard input and output library
 
 int main() { // Program's entry point
